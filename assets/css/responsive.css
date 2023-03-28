@@ -1,0 +1,97 @@
+/* PC */
+@media (min-width: 64em){
+
+}
+/* Tablet */
+@media (min-width:  46.25em) and (max-width:63.9375em){
+    
+}
+/* Tablet & Mobile */
+@media (max-width:63.9375em){
+    .content-contact .contact-if{
+        line-height:2.4;
+    }
+    .contact-input .form-control{
+        padding:15px 8px;
+    }
+    .footer{
+        font-size:35px;
+   }
+    .footer i{
+        margin: 0 8px;
+    }
+    .footer p{
+        font-size:25px;
+    }
+}
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .s-mt-8{
+        margin-top:8px;
+    }
+    #nav{
+        display:block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position:initial;
+        background-color: #333;
+        padding: 5px 42px;
+    }
+    #nav .subnav a{
+        color:#fff;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display:none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    } 
+    .text{
+        display: none;
+    }
+    #content .Theband-doc{
+        text-align: justify;
+    }
+    #content .Member .member1{
+        float:none;
+        width:100%;
+        margin: 35px 0;
+    }
+    .member1 img{
+        width:200px;
+        height: 200px;
+    }
+    .member1 p{
+        font-size:14px;
+    }
+    .Tourdates-place .place-item{
+        float:none;
+        width:100%;
+        margin-bottom: 25px;
+    }
+    .col{
+        float:left;
+        padding:none;
+    }
+    .col-half{
+        width:100%;
+    }
+    .content-contact .contact-input button{
+        width:100%;
+    }
+    .place1 .place1-buyticket{
+        text-align:center;
+        width:100%;
+    }
+    
+    
+}
